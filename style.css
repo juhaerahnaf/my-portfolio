@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+/* coomon css end */
+/* navbar part start */
+#navbar {
+  padding-top: 52px;
+}
+#navbar .row .col_menu {
+  align-items: center;
+  padding: 10px 10px 10px 0;
+}
+
+.col_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.col_menu .logo {
+  width: 50px;
+  height: 50px;
+}
+.col_menu ul {
+  display: flex;
+  gap: 20px;
+}
+.col_menu ul li a {
+  padding: 10px;
+  align-items: center;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Protest Guerrilla", sans-serif;
+  border: 2px solid #fdbb57a6;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.col_menu ul li a:hover {
+  background-color: #fdbb57;
+}
+.col_menu ul li a:active {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+.col_menu ul .navbar_items {
+  border: hidden;
+}
+/* navbar part end */
+/* about me part start */
+#about_me {
+  padding-top: 70px;
+}
+#about_me .row {
+  display: flex;
+  gap: 35px;
+}
+.row .aboutmecol_txt {
+  width: calc(100% - 50%);
+}
+.aboutmecol_txt h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.aboutmecol_txt p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #707070;
+  font-family: "Coming Soon", cursive;
+  padding: 50px 0;
+}
+.row .aboutmecol_img {
+  width: calc(100% - 50%);
+  height: 500px;
+}
+.aboutmecol_img {
+  padding-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* about me part end */
+/* skill part start */
+.row h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  font-family: "Protest Guerrilla", sans-serif;
+  padding-bottom: 10px;
+}
+.row .html span {
+  font-size: 30px;
+  color: #32c29e;
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-family: "SUSE", sans-serif;
+}
+.row .html p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7a6c6c;
+  font-family: "Coming Soon", cursive;
+  padding-bottom: 20px;
+}
+.row .python span {
+  font-size: 30px;
+  color: #32c29e;
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-family: "SUSE", sans-serif;
+}
+.row .python p {
+  font-size: 24px;
+  color: #7a6c6c;
+  font-weight: 500;
+  font-family: "Coming Soon", cursive;
+  padding-bottom: 20px;
+}
+.row .computer_office span {
+  font-size: 30px;
+  color: #32c29e;
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-family: "SUSE", sans-serif;
+}
+.row .computer_office p {
+  font-size: 24px;
+  color: #7a6c6c;
+  font-weight: 500;
+  font-family: "Coming Soon", cursive;
+  padding-bottom: 20px;
+}
+
+.row .communication span {
+  font-size: 30px;
+  color: #32c29e;
+  font-weight: 500;
+  padding-bottom: 20px;
+  font-family: "SUSE", sans-serif;
+}
+.row .communication p {
+  font-size: 24px;
+  color: #7a6c6c;
+  font-weight: 500;
+  font-family: "Coming Soon", cursive;
+  padding-bottom: 20px;
+}
+/* skill part end */
+/* Education part start */
+#Education {
+  padding-top: 25px;
+}
+.row span{
+    font-size: 30px;
+    font-family: "SUSE", sans-serif;
+    color: #7a6c6c;
+}
+.row .masjid_misson .p{
+    font-size: 24px;
+    color: #7a6c6c;
+    font-family: "Coming Soon", cursive;
+}
+/* Education part end */
+
+
+/* contact me */
+.contact-me h2
+{
+  
+}
+/* contact me */
